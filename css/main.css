@@ -26,8 +26,8 @@ header {
   grid-template-columns: auto 10rem auto;
   grid-auto-rows: auto 1.5rem;
   grid-template-areas:
-  "left center right"
-  ". center. ";
+        "left center right"
+        ". center. ";
 
   margin-bottom: 1.5rem;
 }
@@ -110,9 +110,9 @@ section ul li {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
-  "top"
-  "middle"
-  "bottom";
+        "top"
+        "middle"
+        "bottom";
 }
 
 section h3 {
@@ -137,7 +137,7 @@ section div {
   align-items: center;
   border-radius: 1em 0 0 1em;
   justify-self: end;
-  padding: 0. .5em;
+  padding: 0 .5em;
   margin: .5em 0 0;
   z-index: 1;
   font-style: italic;
@@ -146,7 +146,6 @@ section div {
 div strong {
   font-weight: normal;
 }
-
 
 section div img {
   width: 1em;
@@ -158,7 +157,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  font-size: 0.875rem;
+  font-size: .875rem;
   align-items: center;
 }
 
